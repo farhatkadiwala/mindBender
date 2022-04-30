@@ -1,7 +1,5 @@
-#FINAL MIND BENDER
 from tkinter import *
 import random as r
-from PIL import ImageTk, Image
 
 home_page=Tk()                                              #create main home page 
 
