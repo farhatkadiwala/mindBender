@@ -34,9 +34,9 @@ def cosmos():                                                                   
 
     display_status = Label(cosmos_root, fg = "yellow", bg = "black")    #displays whether correct or wrong guess
 
-    words = ["blackhole", "paradox", "galaxy", "planet", "vaccum", "infinity", "supernova", "nebula", "bigbang", "comet"]       #word list(to-be-guessed)
+    words = ["blackhole", "paradox", "galaxy", "planet", "vacuum", "infinity", "supernova", "asteroid", "bigbang", "comet]          #word list(to-be-guessed)
 
-    hint=[["gravity here overpowers light","happens when a star is dying","we cannot observe them"],["contradiction","logical puzzler","an enigma"],["cluster of stars","we live in one","they form the universe"],["made of different elements","happens when a star is dying","we cannot observe them"],["contradiction","logical puzzler","an enigma"],["cluster of stars","we live in one","they form the universe"]]                                                 #hints 
+    hint=[["gravity here overpowers light","happens when a star is dying","we cannot observe them"],["contradiction","logical puzzler","an enigma"],["cluster of stars","we live in one","they form the universe"],["a celestial body", "moves around a star","supposedly influences individuals' personality"],["nothingness","absence of air","outer space is a ______"],["a tired 8","indefintely great in number","thanos was a fan of these stones"],["a stellar explosion", "emits a lot of energy","very bright"],["minor planet", "they are metallic or rocky", "they do not have atmospheres"],["theory of how the universe began", "also a sitcom", "earliest known period"],["small, icy celestial body", "has a tail", "halley discovered this"]]                   #hints 
 
     done_words = []                                                                 #tracks the words already guessed
 
